@@ -1,6 +1,8 @@
 # Hardware Setup: RawLoRa Portenta & RaspberryPi
 Raw LoRa between Arduino Portenta + Vision Shield &amp; Raspberry Pi + Dragino 
 
+[Follow this Notion Link ;)](https://barratia.notion.site/Tutorial-raw-LoRa-between-Arduino-Portenta-Vision-Shield-Raspberry-Pi-Dragino-Linux-x64-32a1e50cba4a4b61a0fcff7003103c2d)
+
 ## Portenta + Vision Shield
 
 ### 1. Setting environment to program Portenta
