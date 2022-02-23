@@ -1,4 +1,4 @@
-# RawLoRa-Portenta-RaspberryPi
+# Hardware Setup: RawLoRa-Portenta-RaspberryPi
 Raw LoRa between Arduino Portenta + Vision Shield &amp; Raspberry Pi + Dragino 
 
 ## Portenta + Vision Shield
@@ -6,7 +6,7 @@ Raw LoRa between Arduino Portenta + Vision Shield &amp; Raspberry Pi + Dragino
 ### 1. Setting environment to program Portenta
 
 <aside>
-💻 I firmly recommend using a Linux machine for this project, there are some more advance stuff that didn’t worked for my using my Macbook Pro 16” (2019). ~~~~
+💻 I firmly recommend using a Linux machine for this project, there are some more advance stuff that didn’t worked for my using my Macbook Pro 16” (2019).
 
 </aside>
 
@@ -66,7 +66,7 @@ LoRaRadio.setLnaBoost(true);
 ### 3.  Setting ****Arduino Core for STM32L0 based boards****
 
 <aside>
-🔥 This step is setting-up a thing that only works with a Linux machine, let’s focus on making it work on our Raspberry Pi!
+🔥 This step is setting-up a thing that only works with a Linux machine...
 
 </aside>
 
@@ -154,8 +154,6 @@ With everything that we have already done until this part, this should be easy a
 At last, we need to access the examples from Jeremy Ellis
 
 [portenta-pro-community-solutions/examples/dot3-portenta-vision-shields/dot34-pure-lora/dot343-extras at main · hpssjellis/portenta-pro-community-solutions](https://github.com/hpssjellis/portenta-pro-community-solutions/tree/main/examples/dot3-portenta-vision-shields/dot34-pure-lora/dot343-extras)
-
-You can do it as you please, I did it cloning the whole repo and then accessing it from the Arduino IDE opening the sketches, here are the steps:Clone the repo somewhere on your Raspberry:
 
 1. In your Arduino IDE go to File/Examples:
     
